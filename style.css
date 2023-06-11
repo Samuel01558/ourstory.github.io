@@ -25,16 +25,24 @@ header .nav-right   {
 
 }
 
-header .nav-right .list-right   {
-    /* display: flex; */
-    list-style: none;
-    width: 350px;
-    
+header a {
+    text-decoration: none;
+    color: white;
 }
+
+/* header .nav-right .list-right   {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    
+} */
 
 header .nav-right .list-right   {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
 }
 
 
@@ -66,6 +74,10 @@ header .nav-right .nav-search .material-symbols-outlined {
   'opsz' 48
 
 
+}
+
+header .nav-right .nav-search .nav-lan a span {
+    color: #FFFFFF;
 }
 
 
