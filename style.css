@@ -47,10 +47,14 @@ header .nav-right .list-right   {
     margin: 0 auto;
 }
 
+header .nav-right .list-right > li {
+    flex-shrink: 0;
+}
+
 
 header .nav-right .nav-menu .material-symbols-outlined  {
     color: #262626;
-    margin: 0 20px 0 0;
+    margin: 0 12px 0 0;
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
@@ -62,11 +66,12 @@ header .nav-right .nav-menu .material-symbols-outlined  {
 header .nav-right .list-right .nav-text a{
     text-decoration: none;
     color:  #262626;
-    font-size: 1.8rem;
+    font-size: clamp(1.3rem, 4.5vw, 1.8rem);
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.5px;
-    margin: 0 20px 0 0;
+    margin: 0 12px 0 0;
+    white-space: nowrap;
 }
 
 header .nav-right .nav-search .material-symbols-outlined {
