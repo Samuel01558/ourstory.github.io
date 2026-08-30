@@ -154,9 +154,8 @@ main ul {
 
 .main-container .main-section figure img   {
     width: 100%;
+    height: auto;
     display: block;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
 }
 
 
